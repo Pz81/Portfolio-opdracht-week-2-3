@@ -48,7 +48,7 @@
 
 body{
     font-family: "Poppins",sans-serif;
-    background-color: var(--bg-color);
+    background-color: var(--secon-bg-color);
     color: var(--text-color);
 }
 
@@ -341,7 +341,7 @@ section{
     justify-content: center;
     align-items: center;
     grid-gap: 2em;
-    background: var(--secon-bg-color);
+    background: var(--bg-color);
 }
 
 .about .img-about{
@@ -420,7 +420,6 @@ section{
     font-weight: 600;
 }
 
-
 /* services section css----------------------------------------------------------- */
 .main-text{
     width: 100%;
@@ -497,8 +496,7 @@ section{
     line-height: 1.6;
 }
 
-
-/* services section css----------------------------------------------------------- */
+/* skill section css----------------------------------------------------------- */
 
 .skills{
     background: var(--secon-bg-color);
@@ -549,22 +547,22 @@ section{
 }
  
 .skill-bar .bar .html{
-    width: 72%;
+    width: 70%;
     animation: html 2s;
 }
 
 .skill-bar .bar .figma{
-    width: 90%;
+    width: 60%;
     animation: figma 3s;
 }
 
 .skill-bar .bar .javascript{
-    width: 80%;
+    width: 50%;
     animation: javascript 4s;
 }
 
 .skill-bar .bar .css{
-    width: 62%;
+    width: 70%;
     animation: css 5s;
 }
 /* skill right  */
@@ -625,6 +623,10 @@ section{
 
 
 /* Portfolio section css ----------------------------------------------------------- */
+
+.portfolio{
+    background: var(--bg-color);
+}
 
 .filter-buttons{
     margin: 2rem;
@@ -921,7 +923,9 @@ footer a {
 
 
 
-@media(max-with:768px) {
+
+
+@media (max-width:768px) {
     #menu-icon{
         display: block;
         transition: all .4s ease;

@@ -102,3 +102,15 @@ window.onscroll = ()=>{
     menuIcon.classList.remove("bx-x");
     navlist.classList.remove("open");
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+// parallax ////////////////////////////////////////////////////////////////
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show-items")
+        }
+    })
+})

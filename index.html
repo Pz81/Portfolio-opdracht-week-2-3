@@ -16,7 +16,6 @@
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -45,24 +44,17 @@
                     <h5>Email</h5>
                     <span>Steven@Stegmann.nl</span>
                 </div>
-
-                <div class="behance-info">
-                    <h5>Behance :</h5>
-                    <span>behance.net/Steven</span>
-
-                </div>
             </div>
 
             <div class="btn-box">
-                <a href="a" class="btn">Download CV</a>
-                <a href="a" class="btn">Hire me Now!</a>
+                <a target="_blank"href="cv.pdf" class="btn">Download CV</a>
             </div>
 
             <div class="social-icons">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-dribbble' ></i></a>
+                <a target="_blank" href="https://www.snapchat.com/add/steven_pz81?share_id=yFwWjvUqP3U&locale=nl-NL"><i class='bx bxl-snapchat' ></i></a>
+                <a target="_blank" href="https://www.instagram.com/steven._.777/?igsh=OHUzM2s0aThjODc5"><i class='bx bxl-instagram' ></i></a>
+                <a target="_blank" href="https://twitter.com/steven_pz81?t=HcwFgX_pBMknMuffWiQlRQ&s=09"><i class='bx bxl-twitter' ></i></a>
+                <a target="_blank" href="https://open.spotify.com/user/3154gqyrdsyrtyolplz25n7ik53i?si=b7KHnrFTTJWUvUzwlIGirA"><i class='bx bxl-spotify' ></i></a>
             </div>
         </div>
 
@@ -164,51 +156,6 @@
         </div>
     </section>
 
-
-     <!-- services section ----------------------------------------------------------------------------------------------->
-     <section id="services" class="services">
-        <div class="maintext">
-            <span>What i will do for you</span>
-            <h2>My Services</h2>
-        </div>
-
-        <div class="section-services">
-            <div class="service-box">
-                <i class='bx bxs-layer service-icon'></i>
-                <h3>Web Developer</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, est mollitia? Veniam ut soluta eveniet velit, saepe minus fugiat omnis consequatur delectus nobis cumque mollitia tempora sequi praesentium possimus quis.
-                </p>
-                <div class="btn-box service-btn">
-                    <a href="#" class="btn">Read More</a>
-                </div>
-            </div>
-
-            <div class="service-box">
-                <i class='bx bx-code-alt service-icon'></i>
-                <h3>Web Developer</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, est mollitia? Veniam ut soluta eveniet velit, saepe minus fugiat omnis consequatur delectus nobis cumque mollitia tempora sequi praesentium possimus quis.
-                </p>
-                <div class="btn-box service-btn">
-                    <a href="#" class="btn">Read More</a>
-                </div>
-            </div>
-
-            <div class="service-box">
-                <i class='bx bx-desktop service-icon'></i>
-                <h3>Web Developer</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, est mollitia? Veniam ut soluta eveniet velit, saepe minus fugiat omnis consequatur delectus nobis cumque mollitia tempora sequi praesentium possimus quis.
-                </p>
-                <div class="btn-box service-btn">
-                    <a href="#" class="btn">Read More</a>
-                </div>
-            </div>
-        </div>
-
-     </section>
-
      <!-- skill section ----------------------------------------------------------------------------------------------->
      <section id="skills" class="skills">
         <div class="maintext">
@@ -222,7 +169,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>HTML</p>
-                        <p>72%</p>
+                        <p>70%</p>
                     </div>
                     <div class="bar">
                         <span class="html"></span>
@@ -232,7 +179,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>Figma</p>
-                        <p>90%</p>
+                        <p>60%</p>
                     </div>
                     <div class="bar">
                         <span class="figma"></span>
@@ -242,7 +189,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>Javascript</p>
-                        <p>80%</p>
+                        <p>50%</p>
                     </div>
                     <div class="bar">
                         <span class="javascript"></span>
@@ -252,7 +199,7 @@
                 <div class="skill-bar">
                     <div class="info">
                         <p>CSS</p>
-                        <p>62%</p>
+                        <p>70%</p>
                     </div>
                     <div class="bar">
                         <span class="css"></span>
@@ -280,9 +227,9 @@
                     </div>
 
                     <div class="box">
-                        <div class="circle" data-dots="50" data-percent="55"></div>
+                        <div class="circle" data-dots="50" data-percent="75"></div>
                         <div class="text">
-                            <big>55%</big>
+                            <big>75%</big>
                             <small>Project Mangement</small>
                         </div>
                     </div>
@@ -409,14 +356,13 @@
         <h2>Contact Me</h2>
     </div>
 
-    <form action="#">
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="Your Email">
-        <input type="text" placeholder="Your Address">
-        <input type="number" placeholder="Phone Number">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <form action="mail.php" id="contactForm" method="post" onsubmit="return submitForm()">
+        <input type="text" name="name" placeholder="Naam *" required>
+        <input type="email"name="email" placeholder="E-mailadres *" required>
+        <input type="tel" name="phone" placeholder="Telefoonnummer">
+        <textarea required name="message" id="" cols="30" rows="10" placeholder="Bericht"></textarea>
         <div class="btn-box formBtn">
-            <button type="submit" class="btn">Send Message</button>
+            <button type="submit" class="btn">Verstuur</button>
         </div>
     </form>
 </section>
@@ -424,12 +370,13 @@
 
 <!-- footer website -->
 <footer>
-    <p>Copyright &copy; 2023 by ParsCoder || All Right Reservd.</p>
+    <p>Copyright &copy; <year id="year"></year> by Steven Stegmann</p>
     <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
 </footer>
 
      <script src="mixitup.min.js"></script>
     <script src="script.js"></script>
+    <script src="mail.js"></script>
 </body>
 
 </html>

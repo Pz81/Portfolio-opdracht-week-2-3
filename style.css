@@ -552,7 +552,7 @@ section{
 }
 
 .skill-bar .bar .figma{
-    width: 60%;
+    width: 70%;
     animation: figma 3s;
 }
 
@@ -651,7 +651,7 @@ section{
 
 .portfolio-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(270px , 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
